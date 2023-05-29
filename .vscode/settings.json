@@ -1,0 +1,36 @@
+{
+  // 保存格式化代码
+  "editor.formatOnSave": true,
+  // 开启自动修复
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "eslint.validate": ["html", "vue", "javascript", "jsx", "ts", "typescript"],
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript|react]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript|react]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[less]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "prettier.configPath": "prettier.config.js",
+  "stylelint.customSyntax": "postcss-less",
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "scss",
+    "vue",
+    "sass"
+  ],
+  "i18n-ally.localesPaths": [
+    "packages/locale",
+    "packages/locale/lang",
+    "packages/hview-ui/es/locale",
+    "packages/hview-ui/lib/locale",
+    "packages/hview-ui/es/locale/lang",
+    "packages/hview-ui/lib/locale/lang"
+  ]
+}
