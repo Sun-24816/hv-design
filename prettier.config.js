@@ -15,4 +15,12 @@ module.exports = {
   endOfLine: "auto", // 换行符使用什么
   bracketSameLine: true,
   requirePragma: false,
+  overrides: [
+    {
+      "files": "*.html",
+      "options": {
+        "parser": "html"
+      }
+    }
+  ]
 };

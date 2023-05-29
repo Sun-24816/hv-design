@@ -5,11 +5,9 @@ module.exports = {
     es2021: true,
   },
   extends: [
-    "plugin:vue/vue3-essential",
     "eslint:recommended",
-    "@vue/typescript/recommended",
-    "@vue/prettier",
-    "@vue/prettier/@typescript-eslint",
+    "plugin:vue/vue3-essential",
+    "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
   ],
   overrides: [],
@@ -23,5 +21,6 @@ module.exports = {
   rules: {
     "no-console": "error",
     "@typescript-eslint/no-explicit-any": ["off"],
+    "vue/comment-directive":"off"
   },
 };
