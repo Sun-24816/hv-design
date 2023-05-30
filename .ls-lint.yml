@@ -1,0 +1,32 @@
+ls:
+  packages/components/**/{src,hooks,utils}:
+    .dir: kebab-case
+    .vue: kebab-case
+    .ts: kebab-case
+  site/docs/**:
+    .dir: kebab-case
+    .vue: kebab-case
+    .ts: kebab-case
+  packages/theme-chalk/src/**:
+    .dir: kebab-case
+    .less: kebab-case
+  packages/hooks/**:
+    .dir: kebab-case
+    .ts: kebab-case
+  packages/directives/**:
+    .dir: kebab-case
+    .ts: kebab-case
+
+ignore:
+  - .git
+  - .vscode
+  - .lintstagedrc.js
+  - node_modules
+  - packages/components/node_modules
+  - packages/components/hv-design
+  - packages/directives/node_modules
+  - packages/hooks/node_modules
+  - packages/constants/node_modules
+  - site/docs/.vitepress
+  - site/docs/en-US
+  - site/docs/vite.config.ts
